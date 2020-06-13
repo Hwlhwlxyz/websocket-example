@@ -1,0 +1,14 @@
+<p>ng2stompjs works!</p>
+
+<h1>ng2-stompjs</h1>
+<form>
+
+    <div class="form-group">
+      <label for="name">name</label>
+      <input type="text" class="form-control"  name="input_name"  
+      [(ngModel)]="input_name">
+    </div>
+
+    <button type="submit" class="btn btn-success" (click)="onSendMessage(input_name)">Submit</button>
+
+  </form>
